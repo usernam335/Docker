@@ -20,11 +20,11 @@
 
     sudo docker login
 _____________________________________________________________________________________        
-    sudo docker pull otus-nginx:alpine-latest
+    sudo docker pull usernam335/otus-nginx:alpine-latest
 
 Запустить контейнер:
 
-    sudo docker run -d --restart always -p 8090:80 otus-nginx:alpine-latest
+    sudo docker run -d --restart always -p 8090:80 usernam335/otus-nginx:alpine-latest
 
 Проверка:
 
