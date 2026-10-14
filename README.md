@@ -17,17 +17,37 @@
 
 Репозиторий Dockerhub c образом [https://hub.docker.com/repository/docker/usernam335/otus-nginx/general](url)\
 Загрузить образ из репозитория:
-        
-        docker pull otus-nginx:alpine-latest
+
+    sudo docker login
+_____________________________________________________________________________________        
+    sudo docker pull otus-nginx:alpine-latest
 
 Запустить контейнер:
 
-    docker run -d --restart always -p 8090:80 otus-nginx:alpine-latest
+    sudo docker run -d --restart always -p 8090:80 otus-nginx:alpine-latest
 
 Проверка:
 
-    docker ps 
+    sudo docker ps 
 
 Посмотреть кастомную страницу:
 
     curl localhost:8090
+
+<img width="435" height="259" alt="Снимок экрана от 2026-10-14 18-41-22" src="https://github.com/user-attachments/assets/a2a7297a-efa2-4a09-a2bc-c14b134a55a1" />
+
+
+## **2.Определите разницу между контейнером и образом**
+
+
+
+
+
+
+
+
+
+
+
+
+
